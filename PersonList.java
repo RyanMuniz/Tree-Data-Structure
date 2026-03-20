@@ -6,6 +6,16 @@
 // FileName: "PersonList.java"
 // Date: March 19, 2026
 
+/*
+PersonList Interface
+(Extra Credit)
+Allows a class to return a Person based on an index.
+*/
 public class PersonList {
-    
+    /*
+    get method
+    Returns the Person stored at the given index.
+    The index is based on sorted in-order traversal.
+    */ 
+    public Person get(int i);
 }
