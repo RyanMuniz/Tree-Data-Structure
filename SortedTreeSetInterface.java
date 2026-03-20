@@ -3,15 +3,9 @@
 // Class: CSCI 2260: Section R01
 // Assignment: Week 8: Linked List
 // Purpose: 
-// FileName: "Main.java"
+// FileName: "SortedTreeSetInterface.java"
 // Date: March 19, 2026
 
-// Import necessary utilities
-import java.File;
-import java.io.IOException;
-import java.util.Scanner;
-
-
-public class Main {
+public class SortedTreeSetInterface {
     
 }
