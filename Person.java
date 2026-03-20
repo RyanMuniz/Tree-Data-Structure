@@ -80,7 +80,7 @@ public double getHeight() {
     // Convert the generic Object reference into a Person reference
     Person other = (Person) obj;
     // Return true if the names match ignoring case
-    return this.name.equalsIgnorecase(other.name);
+    return this.name.equalsIgnoreCase(other.name);
  }
  /*
  toString method

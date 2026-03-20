@@ -11,7 +11,7 @@ PersonList Interface
 (Extra Credit)
 Allows a class to return a Person based on an index.
 */
-public class PersonList {
+public interface PersonList {
     /*
     get method
     Returns the Person stored at the given index.

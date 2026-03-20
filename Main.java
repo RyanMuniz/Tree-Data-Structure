@@ -7,7 +7,7 @@
 // Date: March 19, 2026
 
 // Import necessary utilities
-import java.File;
+import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ stores each Person in a self-sorting binary tree set.
 Then ignores duplicate names automatically, and displays
 the results.
 
-Includes the extra credit features outlined in the instructions:
+Includes the extra credit features:
 1. Checks whether the tree is balanced.
 2. Rebalances the tree if it is.
 3. Use get(int i) to retrieve a Person by sorted index.
@@ -35,7 +35,7 @@ public class Main {
     */
    public static void main(String[] args) {
     // Create the binary tree set that will store Person objects.
-    sortedTreeSet people = new SortedTreeSet();
+    SortedTreeSet people = new SortedTreeSet();
     // Create Scanner reference so it can be closed later.
     Scanner inputFile = null;
 
@@ -73,6 +73,7 @@ public class Main {
         String name = parts[0].trim();
         // Convert the height text into a double value.
         double height = Double.parseDouble(parts[1].trim());
+        double weight = Double.parseDouble(parts[2].trim());
         // Create a new Person object using the data from this line.
         Person employee = new Person(name, height, weight);
 
@@ -86,7 +87,7 @@ public class Main {
        }
        // Print title so the output can be read easily
        System.out.println("Nintendo Human Resources Tree Report");
-       System.out.println("---------------------------------");
+       System.out.println("----------------------------------------");
        // Print the sorted contents of the tree
        System.out.println(people);
        // Print the number of unique employees stored in the tree

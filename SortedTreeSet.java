@@ -307,7 +307,7 @@ public class SortedTreeSet implements SortedTreeSetInterface, PersonList {
     }
     // Prepare default balance info for left and right subtree
     BalanceData leftData = new BalanceData(0, true);
-    BalanceData tightData = new BalanceData(0, true);
+    BalanceData rightData = new BalanceData(0, true);
 
     // If a left child exists, gather its balance info recursively
     if (hasLeft()) {
@@ -324,8 +324,8 @@ public class SortedTreeSet implements SortedTreeSetInterface, PersonList {
     // Check whether current node satisfies balanced
     boolean currentBalanced =
         leftData.balanced &&
-        rightData.balanced
-        Match.abs(leftData.height - rightData.height) <= 1;
+        rightData.balanced &&
+        Math.abs(leftData.height - rightData.height) <= 1;
     // Return the height and balance result together
     return new BalanceData(currentHeight, currentBalanced);
  }
