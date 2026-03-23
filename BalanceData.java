@@ -2,7 +2,8 @@
 // Email: rmuniz15@student.cnm.edu
 // Class: CSCI 2260: Section R01
 // Assignment: Week 8: Linked List
-// Purpose: 
+// Purpose: Stores subtree height and balance status to assist in determining
+// whether the binary tree is balanced.
 // FileName: "BalanceData.java"
 // Date: March 19, 2026
 

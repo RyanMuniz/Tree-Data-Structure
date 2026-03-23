@@ -2,7 +2,8 @@
 // Email: rmuniz15@student.cnm.edu
 // Class: CSCI 2260: Section R01
 // Assignment: Week 8: Linked List
-// Purpose: 
+// Purpose: Represents an employee by sorting their name, height, and weight
+// then provides methods to access and compare that data
 // FileName: "Person.java"
 // Date: March 19, 2026
 

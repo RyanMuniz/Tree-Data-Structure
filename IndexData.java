@@ -2,7 +2,8 @@
 // Email: rmuniz15@student.cnm.edu
 // Class: CSCI 2260: Section R01
 // Assignment: Week 8: Linked List
-// Purpose: 
+// Purpose: Tracks traversal position and stores a found Person when
+// retrieving an element by its sorted index.
 // FileName: "IndexData.java"
 // Date: March 19, 2026
 

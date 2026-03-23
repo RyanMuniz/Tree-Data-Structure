@@ -2,7 +2,9 @@
 // Email: rmuniz15@student.cnm.edu
 // Class: CSCI 2260: Section R01
 // Assignment: Week 8: Linked List
-// Purpose: 
+// Purpose: Implements a self-sorting binary search tree that stores Person
+// objects without dupes and supports traveral, balancing, 
+// and indexed retrieval.
 // FileName: "SortedTreeSet.java"
 // Date: March 19, 2026
 

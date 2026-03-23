@@ -2,7 +2,8 @@
 // Email: rmuniz15@student.cnm.edu
 // Class: CSCI 2260: Section R01
 // Assignment: Week 8: Linked List
-// Purpose: 
+// Purpose: Defines a method for retrieving a Person from the tree based
+// on its position in sorted order.
 // FileName: "PersonList.java"
 // Date: March 19, 2026
 
