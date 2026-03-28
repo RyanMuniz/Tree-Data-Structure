@@ -1,7 +1,7 @@
 // Name: Ryan Muniz
 // Email: rmuniz15@student.cnm.edu
 // Class: CSCI 2260: Section R01
-// Assignment: Week 8: Linked List
+// Assignment: Week 9: Tree Data Structure
 // Purpose: Creates a binary search tree of Person objects by reading employee
 // data from a file, then displays the sorted results and tree properties.
 // FileName: "Main.java"

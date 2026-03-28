@@ -1,7 +1,7 @@
 // Name: Ryan Muniz
 // Email: rmuniz15@student.cnm.edu
 // Class: CSCI 2260: Section R01
-// Assignment: Week 8: Linked List
+// Assignment: Week 9: Tree Data Structure
 // Purpose: Implements a self-sorting binary search tree that stores Person
 // objects without dupes and supports traveral, balancing, 
 // and indexed retrieval.

@@ -1,7 +1,7 @@
 // Name: Ryan Muniz
 // Email: rmuniz15@student.cnm.edu
 // Class: CSCI 2260: Section R01
-// Assignment: Week 8: Linked List
+// Assignment: Week 9: Tree Data Structure
 // Purpose: Tracks traversal position and stores a found Person when
 // retrieving an element by its sorted index.
 // FileName: "IndexData.java"

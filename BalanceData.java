@@ -1,7 +1,7 @@
 // Name: Ryan Muniz
 // Email: rmuniz15@student.cnm.edu
 // Class: CSCI 2260: Section R01
-// Assignment: Week 8: Linked List
+// Assignment: Week 9: Tree Data Structure
 // Purpose: Stores subtree height and balance status to assist in determining
 // whether the binary tree is balanced.
 // FileName: "BalanceData.java"
